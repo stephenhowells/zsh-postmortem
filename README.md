@@ -1,6 +1,8 @@
 # zsh-postmortem
 
 > Automatic "why did that just fail?" powered by your favorite LLM
+>
+> ⚠️ This plugin may still be unstable and may not work reliably yet. It's a work in progress. Feel free to test it out and contribute!
 
 A Zsh plugin that automatically analyzes failed commands and provides AI-powered explanations and solutions. Never wonder why a command failed again!
 
@@ -79,7 +81,7 @@ source ~/.zsh/zsh-postmortem/zsh-postmortem.plugin.zsh
 
 </details>
 
-## 🔧 Configuration
+## ⚙️ Configuration
 
 Configure the plugin by setting environment variables in your `.zshrc` before loading the plugin:
 
